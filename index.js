@@ -71,7 +71,7 @@
 // console.log("yig'indi" ,sum);
 
 //8
-
+ 
 //10
 // let n= 7;
 // let F = 0;
@@ -83,4 +83,14 @@
 // }
 // console.log(F.toFixed(2));
 
-//11
+//12
+let n = 5;
+let S = 0;
+for(let i = 1; i<=n; i=i+0.1) {
+    console.log(i);
+    S=n*i
+    
+}
+console.log(S.toFixed(2));
+
+//13
