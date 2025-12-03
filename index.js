@@ -106,15 +106,49 @@
 // console.log(S.toFixed(2));
 
 //13
-let n = 3;
+// let n = 3;
 
-let S = 1.1 -1.2 +1.3 - 1.4 +1.5-1.6 +1.7 -1.8 +1.9 -2.0 +2.1 -2.2 +2.3 -2.4 +2.5 -2.6 +2.6 -2.7 +2.8 -2.9 +3.0; //javobi 2
-let u =0;
-for (let i = 1; i <= n; i++) {
- console.log(i);
-     u = S + i;
-}
-console.log("javobi = " + u);
+// let S = 1.1 -1.2 +1.3 - 1.4 +1.5-1.6 +1.7 -1.8 +1.9 -2.0 +2.1 -2.2 +2.3 -2.4 +2.5 -2.6 +2.6 -2.7 +2.8 -2.9 +3.0; //javobi 2
+// let u =0;
+// for (let i = 1; i <= n; i++) {
+//  console.log(i);
+//      u = S + i;
+// }
+// console.log("javobi = " + u);
 
 //14
+//  let n = 4;
+ // 4*4 = 1 + 3 + 5 + ... + (2*4 -1); 
  
+//  for (let i = 1; i <= n; i++ ) {
+//     console.log(i **2);
+    
+//  }
+
+ //15
+//  let s  = 5;
+ //a **s = a*a*a ...a;
+
+ //16 
+//  let n = 6;
+//  let a = 2;
+//  let d = 0;
+//  for(let i =0; i<= n ; i++) {
+//     console.log( "a ning n ta darajasi = " + a**i);//misolni shunaqa tushundim
+//  }
+
+ //17
+//  let A = 2;
+// let n = 6;
+// let x = 0;
+// for (let i = 0; i <= n; i++) {
+//     x = x**i;
+// }
+
+//20
+let n = 3;
+let b = 0
+for (i =0; i<= n; i++) {
+    b = b+ i*n 
+}
+console.log("yig'indi javobi =" + b);
