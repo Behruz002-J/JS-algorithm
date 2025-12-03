@@ -83,14 +83,38 @@
 // }
 // console.log(F.toFixed(2));
 
+
+// 12----
+// let n = 4;
+// let S = 0;
+// let key = 0;
+// //S=4*4 + (4+1)** + (4+2)** + (4+3)** + 2*4
+// for(let i = n; i <= 2*n; i++) {
+// console.log(i **2 );
+// key = key  + i** 2
+// }
+// console.log("key = " + key);
+
 //12
-let n = 5;
-let S = 0;
-for(let i = 1; i<=n; i=i+0.1) {
-    console.log(i);
-    S=n*i
+// let n = 5;
+// let S = 0;
+// for(let i = 1; i<=n; i=i+0.1) {
+//     console.log(i);
+//     S=n*i
     
-}
-console.log(S.toFixed(2));
+// }
+// console.log(S.toFixed(2));
 
 //13
+let n = 3;
+
+let S = 1.1 -1.2 +1.3 - 1.4 +1.5-1.6 +1.7 -1.8 +1.9 -2.0 +2.1 -2.2 +2.3 -2.4 +2.5 -2.6 +2.6 -2.7 +2.8 -2.9 +3.0; //javobi 2
+let u =0;
+for (let i = 1; i <= n; i++) {
+ console.log(i);
+     u = S + i;
+}
+console.log("javobi = " + u);
+
+//14
+ 
