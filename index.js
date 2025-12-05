@@ -1,4 +1,4 @@
-// let hello = +prompt("Necha marta chiqishini xoxlaysan ko't")
+// let hello = +prompt("Necha marta chiqishini xoxlaysiz") bu holat boshqa takrorlanmaydi 
 
 // let count = 1;
 
@@ -152,3 +152,5 @@ for (i =0; i<= n; i++) {
     b = b+ i*n 
 }
 console.log("yig'indi javobi =" + b);
+
+let m = 12n;
